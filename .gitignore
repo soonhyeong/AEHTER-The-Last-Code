@@ -1,0 +1,79 @@
+# This is a source-reading portfolio, not a complete Unity project.
+# Do not accidentally import the original project into this repository.
+/Assets/
+/Packages/
+/ProjectSettings/
+/Library/
+/Temp/
+/Logs/
+/UserSettings/
+/Build/
+/Builds/
+/Recordings/
+/_CompileArchive/
+/.plastic/
+/.vs/
+/.vscode/
+/.idea/
+**/bin/
+**/obj/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.suo
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.pfx
+*.p12
+*.keystore
+*.jks
+
+# External asset originals and build archives are deliberately not committed.
+*.unity
+*.prefab
+*.asset
+*.inputactions
+*.unitypackage
+*.fbx
+*.obj
+*.blend
+*.psd
+*.tif
+*.tiff
+*.tga
+*.raw
+*.png
+*.jpg
+*.jpeg
+*.exr
+*.hdr
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.mp4
+*.mov
+*.webm
+*.ttf
+*.otf
+*.dll
+*.exe
+*.zip
+*.7z
+*.rar
+
+# Known external source locations must not be added wholesale.
+/Source/Assets/10. DownloadAssets/
+/Source/Assets/UnityTechnologies/
+/Source/Assets/_Creepy_Cat/
+/Source/Assets/Underwater-Effect/
+/Source/Assets/11.another aseets/*
+!/Source/Assets/11.another aseets/Scropts/

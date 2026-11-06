@@ -1,0 +1,7 @@
+# Exported source is UTF-8. Preserve the prepared file bytes/line endings.
+# Keep the original .meta bytes and the recorded manifest hashes stable.
+* -text
+*.cs diff
+*.meta diff
+*.md diff
+*.json diff
